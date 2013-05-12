@@ -1,0 +1,249 @@
+.content{
+    position: relative;
+    width:1024px;
+    margin:20px auto 0 auto;
+}
+.Search_Left{
+    position:relative;
+    float:left;
+    height:100px; /*for tests*/
+    width:70%;
+    margin:0;
+    text-align: center;
+}
+.Search_Right{
+    position:relative;
+    float:left;
+    height:1010px;
+    width:30%;
+    margin:0;
+    background:white;
+}
+.Search_Bar{
+    width:70%;
+    height:40px;
+    margin:10px auto;
+}
+.Search_Input{
+    width:83%;
+    height:30px;
+    font-size:20px;
+    line-height:30px;
+    margin:0 0 0 0;
+    font-family:"微软雅黑",monospace;
+    position:relative;
+    float:left;
+}
+.Input_Btn{
+    height:35px;
+    width:79px;
+    position:relative;
+    float:left;
+    background-image: url(../pictures/cbtn_normal.png);
+}
+.Input_Btn:hover{
+    height:35px;
+    width:79px;
+    position:relative;
+    float:left;
+    background-image: url(../pictures/cbtn_hover.png);
+}
+.Input_Btn:active{
+    height:35px;
+    width:79px;
+    position:relative;
+    float:left;
+    background-image: url(../pictures/cbtn_press.png);
+}
+
+
+
+.footbar{
+    width:100%;
+    height:100px;
+    background-color: grey;
+}
+.TopGuide .rotate{
+    width:33px;
+    height:20px;
+    position:relative;
+    float:right;
+    top:10px;
+    right:10px;
+    z-index:100;
+    background-image:url(../pictures/arrow.png);
+}
+/*用来解决由于浮动所导致的父元素框打不开的问题*/
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+}
+/*搜索结果元素的所有样式 */
+.SearchBar{
+    width:60%;
+    border-radius: 5px;
+    display:block;
+    margin:20px 15%;
+}
+.TopGuide{
+    width:95%;
+    padding-left:5%;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgb(40,204,112);
+    text-align:left;
+    font-size:25px;
+    color:white;
+    font-family:"Microsoft YaHei",Consolas,monospace;
+    line-height:40px;
+    z-index:10;
+    cursor:pointer;
+}
+.SearchInfo{
+    background-color: white;
+    border-radius: 5px;
+    width:100%;
+    height:280px;
+    z-index:9;
+    margin-top:5px;
+    display:none;
+}
+    /*搜索显示出来的内容,以下所有的样式的元素都是SearchInfo的子元素*/
+.SearchInfo .tag{
+    margin:0 auto;
+    width:95%;
+    height:15%;
+}
+.SearchInfo .body{
+    margin:0 auto;
+    width:95%;
+    height:85%;
+}
+.SearchInfo .left{
+    position:relative;
+    float:left;
+    width:70%;
+    height:100%;
+}
+.SearchInfo .right{
+    position:relative;
+    float:left;
+    width:30%;
+    height:100%;
+}
+.SearchInfo .left .top_pic{
+    width:40%;
+    margin-left:5%;
+    height:35%;
+}
+.SearchInfo .left .body_info{
+    width:100%;
+    margin-left:5%;
+    height:40%;
+    text-align: left;
+}
+
+.SearchInfo .left .body_info ._info{
+    margin-left:5%;
+    font-size:16px;
+    font-family: "Microsoft YaHei",Consolas,monospace;
+}
+
+.SearchInfo .left .end{
+    width:100%;
+    margin-left:5%;
+    height:25%;
+    vertical-align: middle;
+}
+
+.SearchInfo .left .end .like_pic{
+    margin-left:5%;
+    position:relative;
+    float:left;
+    width:55px;
+    height:50px;
+    background-image:url(../pictures/like.png);
+    cursor:pointer;
+}
+
+.SearchInfo .left .end .unlike_pic{
+    margin-left:5%;
+    position:relative;
+    float:left;
+    width:59px;
+    height:50px;
+    background-image:url(../pictures/unlike.png);
+    cursor:pointer;
+}
+.SearchInfo .left .end .l_num{
+    position:relative;
+    float:left;
+    width:50px;
+    height:50px;
+    text-align:center;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: "Courier New",monospace;
+    color:grey;
+}
+.SearchInfo .right .download{
+    width:90%;
+    position:absolute;
+    bottom:10px;
+    height:55px;
+    cursor:pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px grey;
+    background-color: rgb(40,204,112);
+    color:white;
+    font-family: Consolas,monospace;
+    font-size:25px;
+    text-align: center;
+    line-height: 55px;
+}
+
+/*右栏的设置*/
+#hot_course_tag{
+    width:90%;
+    height:100px;
+    background:#28CC70;
+    border-radius:10px;
+    margin:10px auto;
+}
+#up_tag{
+    color:white;
+    position:absolute;
+    top: 20px;
+    left:30px;
+    font-size:30px;
+    font-family:"微软雅黑",monospace;
+}
+
+.HotCourseTag{
+    margin:0 auto;
+    width:90%;
+    height:80px;
+    font-family: "微软雅黑",monospace;
+    border-bottom: 1px darkgrey solid;
+}
+.HotCourseTag .Title{
+    font-size:25px;
+    text-decoration: none;
+    color:darkblue;
+}
+.HotCourseTag .Title:hover{
+    text-decoration: underline;
+}
+.HotCourseTag .Size{
+    font-size:15px;
+    color:#28CC70;
+    margin-top:0;
+    margin-bottom:0;
+    line-height: 1.2em;
+}
+
+
+
+

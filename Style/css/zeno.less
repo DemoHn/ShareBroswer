@@ -1,0 +1,83 @@
+// zeno.less -- 简单易用的less库
+// Copyright (C) Zeno Zeng
+// Licensed under WTFPL
+// Version 0.0.2b
+// Time-stamp: <2013-03-05 17:41:44 Zeno Zeng>
+
+// 字体类
+// 兼顾mac、linux、win
+// todo: 方正字体的添加
+
+.font-hei() {
+    font-family: "Hiragino Sans GB", "ST Heiti", "LiHei Pro Medium", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei";
+}
+.font-song() {
+    font-family: "NSimSun", "STSong", "AR PL SungtiL GB", "TW\-Sung", "SimSun";
+}
+.font-kai() {
+    font-family: "STKaiti", "KaiTi", "AR PL KaitiM GB", "TW\-Kai";
+}
+.font-code() {
+    font-family: "Source Code Pro", "Ubuntu Mono", FreeMono;
+}
+
+// css3类
+.transition(@time) {
+  transition: all @time ease-in-out;
+  -moz-transition: all @time ease-in-out;
+  -webkit-transition: all @time ease-in-out;
+  -o-transition: all @time ease-in-out;
+}
+.animation(@name, @duration){
+    -webkit-animation-name:@name;         
+    -webkit-animation-duration:@duration;          
+    -webkit-animation-iteration-count:infinite;      
+    -webkit-animation-timing-function:linear;        
+    
+    -moz-animation-name:@name;     
+    -moz-animation-duration:@duration;             
+    -moz-animation-iteration-count:infinite;         
+    -moz-animation-timing-function:linear;       
+    
+    -ms-animation-name:@name;         
+    -ms-animation-duration:@duration;          
+    -ms-animation-iteration-count:infinite;      
+    -ms-animation-timing-function:linear; 
+
+    -o-animation-name:@name;         
+    -o-animation-duration:@duration;          
+    -o-animation-iteration-count:infinite;      
+    -o-animation-timing-function:linear;         
+    
+    animation-name:@name;         
+    animation-duration:@duration;          
+    animation-iteration-count:infinite;      
+    animation-timing-function:linear;        
+}
+
+.fn-shodow(@x, @y, @z, @color) {
+   // 一定要设置background, 不然 ie 会显示在字体上
+    -moz-box-shadow:@x @y @z @color;
+    -webkit-box-shadow:@x @y @z @color;
+    box-shadow:@x @y @z @color;
+
+    // gte=ie8
+    -ms-filter:"progid:DXImageTransform.Microsoft.Glow(color=#aaaaaa,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=0,strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=10) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=6)";
+
+    // lte=ie7
+    *filter:
+    progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=0,strength=7)
+    progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=10)
+    progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=10)
+    progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7);
+}    
+
+
+// 浮动布局类
+.clear-after() {
+    &:after{
+	content:'';
+	clear:both;
+	display:block;
+    }
+}

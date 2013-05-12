@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://G:/JavaScript/框架资源－JavaScript/jquery.scrollto/jquery.scrollto.js" libraries="{jquery-1.9.1}" />
+    <file url="file://$PROJECT_DIR$/upload.html" libraries="{jquery-1.9.1}" />
+    <file url="PROJECT" libraries="{Node.js v0.10.4 Core Modules, jquery-1.9.1}" />
+  </component>
+</project>
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>上传</title>
+    <script src="Code/jquery-1.9.1.min.js"></script>
+    <script src="Code/upload_all.js"></script>
+    <script src="Code/PopupWindow.js"></script>
+    <script src="Code/js/index_upload.js"></script>
+    <link rel="stylesheet" href="Style/style_Index.css"/>
+    <link rel="stylesheet" href="Style/style_Upload.css"/>
+    <link rel="stylesheet" href="Style/ItemTag.css"/>
+    <link rel="stylesheet" href="Style/Upload_Dialog-Info.css"/>
+    <link rel="stylesheet" href="Style/style_popup.css"/>
+    <link rel="stylesheet" href="Style/css/styles.css">
+    <link rel="stylesheet" href="Style/style_Tag.css">
+</head>
+<body>
+<div id="bg_Black"  style="display:none;"></div>
+<div class="head">
+    <div id="nav" style="background:#28CC70;">
+        <ul>
+            <li><a class="logo" href="index.html">Share</a></li>
+            <li><a href="http://www.qsc.zju.edu.cn">求是潮</a></li>
+            <li><a>|</a></li>
+            <li><a href="http://www.qsc.zju.edu.cn/apps/qanda">党校在线答题</a></li>
+            <li><a href="http://www.qsc.zju.edu.cn/share">Share学习交流平台</a></li>
+            <li><a href="http://www.qsc.zju.edu.cn/apps/notice">Notice活动发布平台</a></li>
+            <li><a href="http://m.myqsc.com/get/">Mobile手机站</a></li>
+            <li><a href="http://box.myqsc.com/">Box云优盘</a></li>
+            <li><a href="http://app.myqsc.com/voice/">Voice求是好声音</a></li>
+            <li><a href="https://passport.myqsc.com/">求是潮通行证</a></li>
+            <present name="isLogin">
+                <if condition="$userInfo['id']">
+                    <li style='float:right;' id='hello'><a href="__APP__/User/logout/" target="_self"  style="text-decoration:none">退出</a></li>
+                    <li style='float:right;' id='hello'><a href="__APP__/Letter/inbox">站内信</a></li>
+                    <li style='float:right;' id='hello'>积分数:{$credit}</li>
+                    <li style='float:right;' id='hello'><a href="__APP__/User/modify">修改资料</a></li>
+                    <li style='float:right;' id='hello'>{$userInfo.name}</li>
+                </if>
+                <else />
+                <li style='float:right;'><a href="__APP__/Index/checkLogin">登陆</a></li>
+                <li style='float:right;'><a>|</a></li>
+                <li style='float:right;'><a href="http://passport.myqsc.com/gateway/auth/?method=register">注册</a></li>
+            </present>
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div id="help_button">
+
+    </div>
+    <div id="upload">
+        <div id="information"></div>
+    </div>
+    <div id="logo"><img src="pictures/share-title.png" alt="share-title"/>
+
+        <div class="ItemTag_Main" id="btn" style="float:right;cursor:pointer;overflow:hidden;">
+            <div class="ItemTag_TextTag" style="cursor:pointer;">上传须知</div>
+            <div class="ItemTag_WordTag" style="font-size:38px;color:white;cursor:pointer;right:-5px;">?</div>
+        </div>
+    </div>
+
+</div>
+<div id="foot"><img src="pictures/img/footerbg.png" id="footer"></div>
+<!-- popup window-->
+
+<div id="help" class="popupContact" style="display:none;">
+    <div class="popupContactClose"><a><img src="pictures/close.png"/></a></div>
+    <div class="contents">
+        斯基很萌的，大家不要黑他~~
+    </div>
+</div>
+
+</body>
+</html>

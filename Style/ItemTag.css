@@ -1,0 +1,110 @@
+/*标签*/
+.ItemTag_Main{
+    position: relative;
+    float:left;
+    width:80px;
+    height: 38px;
+    background-color:rgb(40,204,112);
+    z-index: 10;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #aaa;
+    cursor:default;
+}
+.ItemTag_TextTag{
+    position:absolute;
+    cursor:default;
+    font-family: "微软雅黑",monospace;
+    font-size:17px;
+    color:white;
+    top:0px;
+    left:0;
+    overflow:hidden;
+}
+.ItemTag_WordTag{
+    position:absolute;
+    right:0;
+    bottom:-5px;
+    font-family: "微软雅黑",monospace;
+    font-size:16px;
+    color:rgb(158,226,182);
+    z-index:0;
+}
+/*输入框*/
+.ItemTag_Input{
+    position:relative;
+    bottom:0;
+    border:2px inherit solid;
+    float:left;
+    height: 35px;
+    vertical-align: middle;
+    line-height: 1.2em;
+    font-size: 16px;
+    padding:0;
+    margin:0 0 0 20px;
+    font-family:"Courier New","微软雅黑",monospace;
+    color:#999;
+    resize:none;
+}
+.TT{
+    position:relative;
+    height:auto;
+    font-size:16px;
+    overflow: auto;
+}
+.ItemTag_Input:focus{
+    border:1px solid green;
+    box-shadow: 0 0 2px green;
+    border-radius: 2px;
+}
+/*admit_button*/
+.ItemTag_Button{
+    background-color:rgb(40,204,112);
+    width:150px;
+    height:80px;
+    text-align: center;
+    line-height:80px;
+    font-family:"Courier New","微软雅黑",monospace;
+    font-size:20px;
+    color:white;
+    cursor:pointer;
+    position:relative;
+    float:right;
+    margin:0 10px;
+    border-radius:5px;
+}
+
+.ItemTag_Button:hover{
+    background:orange;
+}
+/*optional*/
+.ItemTag_Wrap{
+    position:static;
+    margin:50px 0;
+    width: 100%;
+}
+/*plus_1 功能*/
+.ItemTag_Tri{
+    position:absolute;
+    float:left;
+    right:0;
+    top:0;
+    width:0;
+    height:0;
+    border:8px solid #000;
+    border-color:white white green green;
+}
+
+.ItemTag_UpFile{
+    margin: 50px 0 -20px;
+    height:40px;
+    text-align: center;
+    width: 72%;
+    color:white;
+    line-height: 40px;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 10px;
+    box-shadow: 2px 2px 2px grey;
+    cursor:pointer;
+}

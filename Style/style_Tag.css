@@ -1,0 +1,15 @@
+.SearchTag{
+    width:30px;
+    height:20px;
+    border-radius: 5px;
+    background:#28CC70;
+    line-height:20px;
+    text-align:center;
+    font-size:15px;
+    font-family:"微软雅黑",monospace;
+    color:white;
+    margin:0 20px;
+    position:relative;
+    float:left;
+    cursor:pointer;
+}

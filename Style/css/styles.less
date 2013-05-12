@@ -1,0 +1,89 @@
+@import 'reset';
+@import 'zeno';
+
+@theme: #F1A41F;
+
+
+@font-face {
+    font-family: maitai;
+    src: url('./maitai.eot');
+    src: url('./maitai.eot?#iefix') format('embedded-opentype'),
+    url('./maitai.woff') format('woff'),
+    url('./maitai.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    font-family: maitai;
+    font-size: 36px;
+    padding: 0 20px;
+}
+
+a {
+    color: #333;
+    text-decoration:none;
+    &:hover {
+	color: #000;
+    }
+}
+
+body {
+    color: #555;
+    font-size: 14px;
+}
+
+#nav {
+    background: @theme;
+    height: 40px;
+    color: #fff;
+    a {
+	color: #fff;
+    }
+    li {
+	float: left;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 5px;
+    }
+}
+
+#index {
+    background: #f7f7f7;
+    #indexbg {
+	width: 100%;
+    }
+    #search {
+	width: 530px;
+	margin: 0 auto;
+    }
+    input {
+	width: 400px;
+	border: none;
+	line-height: 30px;
+	height: 30px;
+    }
+    #s {
+	float: left;
+	border: 1px solid #8a8a8a;
+	border-right: none;
+	height: 30px;
+	overflow: hidden;
+    }
+    #submit {
+	background: #f33f54;
+	color: #fff;
+	float: left;
+	height: 12px;
+	width: 100px;
+	text-align: center;
+	line-height: 12px;
+	padding: 10px;
+    }
+}
+
+#footer {
+    padding-top: 20px;
+    margin-bottom: -5px;
+    width: 100%;
+}

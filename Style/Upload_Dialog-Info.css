@@ -1,0 +1,83 @@
+.DialogBox{
+    position:relative;
+    width:700px;
+    height:auto;
+    display:block;
+}
+
+.DialogBox_Left{
+    left:0;
+    top:0;
+    width:84%;
+    height:100%;
+    text-align: center;
+    margin:10px;
+}
+.DialogBox_Right{
+    position:absolute;
+    text-align: right;
+    right:0;
+    bottom:0;
+    width:16%;
+    height:100%;
+    margin:10px;
+}
+
+
+
+.DialogBox_Info{
+    position:relative;
+    width:68%;
+    height:400px;
+    margin:20px 0 10px 0;
+    border:2px solid grey;
+}
+.DialogBox_Cancel{
+    display:block;
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:0;
+    width:20px;
+    height:20px;
+    z-index:100;
+    background-image:url(../pictures/closetag.png);
+}
+.DialogBox_files{
+    background:#bbb;
+    height:50px;
+    width:100%;
+    position:relative;
+    float:left;
+    margin-bottom:10px;
+}
+.DialogBox_body{
+    height:150px;
+    background:transparent;
+}
+
+.DialogBox_files .FileName{
+    position:relative;
+    float:left;
+    height:50px;
+    line-height:50px;
+    font-size:20px;
+    margin-left:29px;
+    font-family:"微软雅黑",monospace;
+}
+.DialogBox_files .FileImg{
+    position:relative;
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+}
+
+.DialogBox_files .Toggle{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    text-decoration: none;
+    color:white;
+    font-family:"微软雅黑",monospace;
+}
+
