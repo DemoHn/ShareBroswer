@@ -7,6 +7,7 @@
  */
 (function () {
     var num=0;
+    var im=0;
      //Elements
     function formatFileSize(filesize) {
         var unit = "B";
@@ -29,11 +30,18 @@
         return (filesize.toFixed(1) + unit);
     }
 
-    function AddGuide(parent_id, obj_id, jsoninfo) {
+    function AddGuide(parent_id, obj_id,word, jsoninfo) {
         /**
          * @return {string}
          */
-        function AddSearchInfo(jsoninfo,obj_id) {
+        var i=0;
+        var regnum=/[0-9]+/;
+        var regid=regnum.exec(obj_id);
+
+        /**
+         * @return {string}
+         */
+        function AddSearchInfo(jsoninfo,obj_id,num) {
             /*jsoninfo是这个搜索结果数据是主要部分。其数据为：
              title:放在TopGuide上的标签题目
              fileSize;文件大小
@@ -44,35 +52,45 @@
              unlikenum:踩下去人人数
              (预留)tags[]:显示标签
              */
+            var regnum=/[0-9]+/;
+            var rid=regnum.exec(obj_id);
             var contentDiv =
                 "<div class='tag'></div>" +
                     "<div class='body clearfix'>" +
                     "<div class='left'>" +
                    // "<div class='top_pic'></div>" + //TODO 预留用来放标签用，如果不用可以直接注解掉
                     "<div class='body_info'>" +
-                    "<div class='_info'>" + "文件名称： " + jsoninfo.filename + "</div>" +
+                    "<div class='_info'>" + "文件名称： " + jsoninfo.fileName + "</div>" +
                     "<div class='_info'>" + "文件大小： " + jsoninfo.fileSize + "</div>" +
                     "<div class='_info'>" + "上传者&nbsp;&nbsp;&nbsp;： " + jsoninfo.uploader + "</div>" +
                     "<div class='_info'>" + "上传时间： " + jsoninfo.uploadtime + "</div>" +
                     "</div>" +
                     "<div class='end'>" +
-                    "<div class='like_pic'></div>" +
-                    "<div class='l_num' id="+obj_id+"_like>" + jsoninfo.likenum + "</div>" +
-                    "<div class='unlike_pic'></div>" +
-                    "<div class='l_num' id="+obj_id+"_unlike>" + jsoninfo.unlikenum + "</div>" +
+                    "<div class='like_pic' id=Like_pic_"+regid+"_"+num+"></div>" +
+                    "<div class='l_num' id="+obj_id+"_"+num+"_like>" + jsoninfo.likenum + "</div>" +
+                    "<div class='unlike_pic' id=Unlike_pic_"+regid+"_"+num+"></div>" +
+                    "<div class='l_num' id="+obj_id+"_"+num+"_unlike>" + jsoninfo.unlikenum + "</div>" +
                     "</div>" +
                     "</div>" +
                     "<div class='right'>" +
-                    "<div class='download'>Download</div>" +
+                    "<div class='download' id=Btn_Download_"+rid+"_"+num+">Download</div>" +
                     "</div>" +
                     "</div>";
             return  contentDiv;
         }
          //TODO 5.12:将js动态加载图片的问题解决掉
-        var TopGuide = "<div class='TopGuide'>" + jsoninfo.word + "<div class='rotate' ></div>" + "</div>";
-        var SearchInfo = "<div class='SearchInfo clearfix' >" + AddSearchInfo(jsoninfo,obj_id) + "</div>";
-        var SearchBar = "<div class='SearchBar' id=" + obj_id + " >" + TopGuide + SearchInfo + "</div>";
+        var TopGuide = "<div class='TopGuide'>" + word + "<div class='rotate' ></div>" + "</div>";
+        var SearchInfo = "";
+        var SearchBar = "<div class='SearchBar clearfix' id=" + obj_id + " ></div>";
         $("#" + parent_id).append(SearchBar);
+        $("#"+obj_id).append(TopGuide);
+        for(im in jsoninfo){
+            i++;
+            SearchInfo="<div class='SearchInfo clearfix' id=Info_"+i+">" + AddSearchInfo(jsoninfo[im],obj_id,i)+ "</div>";
+            $("#"+obj_id).append(SearchInfo);
+            BindPlusOneEvent("Like_pic_"+regid+"_"+i,obj_id+"_"+i+"_like");
+            BindPlusOneEvent("Unlike_pic_"+regid+"_"+i,obj_id+"_"+i+"_unlike");
+        }
         $("#" + obj_id + " .TopGuide").click(function () {
             var sv= $("#" + obj_id + " .SearchInfo");
             var st= $("#" + obj_id + " .TopGuide");
@@ -86,8 +104,7 @@
             }
             sv.slideToggle(500);
         });
-        BindPlusOneEvent(obj_id+" .like_pic",obj_id+"_like");
-        BindPlusOneEvent(obj_id+" .unlike_pic",obj_id+"_unlike");
+
     }
 
     function AddRightGuider(parent_id, jsoninfo) {
@@ -154,19 +171,29 @@
     //开始后所用来调试的函数
 
     $(document).ready(function () {
+        $("#footer").css({"position": "static", "bottom": "0"});
         //添加搜索结果框
         for(var j=0;j<10;j++){
             num++;
             //TODO 添加搜索结果框【】
-            AddGuide("sch_left", "SearchResult"+num,
-                {
-                    word: "DemoHn_"+j,
+            AddGuide("Bar_Info", "SearchResult"+num,"DemoHn_"+j,{
+                a:{
+                    "fileName":"123.js",
                     "fileSize": "100M",
                     "uploader": "ZZ",
                     "uploadtime": "2013.5.7",
                     "likenum": 0,
                     "unlikenum": 0
-                });
+                },
+               b:{
+                    "fileName":"12345.js",
+                    "fileSize": "100M",
+                    "uploader": "ZZ",
+                    "uploadtime": "2013.5.7",
+                    "likenum": 0,
+                    "unlikenum": 0
+                }
+            });
         }
         //添加热门课程框（热门课程搞个“文件大小”是什么意思？）
         //TODO 可以添加热门课程框【】

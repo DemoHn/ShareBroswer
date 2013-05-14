@@ -1,5 +1,0 @@
-这个库的存在主要是为了写less时候可以方便一些，目前还刚开始。我会渐渐地去完善它。
-
-* License
-WTFPL, grab your copy here: http://sam.zoy.org/wtfpl/
-  
