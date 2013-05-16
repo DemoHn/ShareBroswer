@@ -2,46 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6be2cac8-92c1-4eb4-9c62-07bd959c163b" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\QSCproject\Share\.idea\QSC Share.iml" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\.idea\jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\QSC Share.rar" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\QSC Share0512.rar" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\README.org" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\maitai.eot" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\maitai.ttf" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\maitai.woff" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\mobile-reset.less" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\reset.less" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\styles.css" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\styles.less" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\css\zeno.less" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\img\footerbg.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\img\indexbg-2.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\img\indexbg.png" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\index.html" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\notice2-gh-pages\js\index.js" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\share页面.rar" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\斯基哥哥的psd\search result.psd" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\斯基哥哥的psd\upload.psd" afterPath="" />
-      <change type="DELETED" beforePath="G:\QSCproject\Share\设计稿\斯基哥哥的psd\首页.psd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Code/search_all.js" afterPath="$PROJECT_DIR$/Code/search_all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/style_Search.css" afterPath="$PROJECT_DIR$/Style/style_Search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Share.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368528898138" ignored="false" />
+    <file path="/Dummy.txt" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368544047359" ignored="false" />
     <file path="/search.html" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368534446886" ignored="false" />
     <file path="/search_all.js" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368535277938" ignored="false" />
-    <file path="/style_Search.css" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368534876445" ignored="false" />
+    <file path="/style_Search.css" changelist="6be2cac8-92c1-4eb4-9c62-07bd959c163b" time="1368546284130" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,25 +31,34 @@
       <file leaf-file-name="search.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="54" selection-start="2249" selection-end="2249" vertical-scroll-proportion="-30.076923">
+            <state line="5" column="49" selection-start="127" selection-end="127" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_Search.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="10" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style_Search.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Style/style_Search.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="33" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
+            <state line="211" column="24" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.3622951">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search_all.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search_all.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/search_all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.7965812">
+            <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,7 +76,7 @@
       <file leaf-file-name="upload_all.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/upload_all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="-7.04">
+            <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,8 +101,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/search.html" />
-        <option value="$PROJECT_DIR$/Style/style_Search.css" />
         <option value="$PROJECT_DIR$/Code/search_all.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Style/style_Search.css" />
       </list>
     </option>
   </component>
@@ -221,6 +199,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -248,23 +227,23 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24497394" sideWeight="0.6703297" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -328,23 +307,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Code/js/index_upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Code/upload_all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="-7.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="54" selection-start="2249" selection-end="2249" vertical-scroll-proportion="-30.076923">
+        <state line="46" column="54" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -358,7 +323,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/search_all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.7965812">
+        <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/js/index_upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/upload_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="54" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/style_Search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="33" selection-start="2235" selection-end="2235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/search_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/js/index_upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/upload_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/js/index_upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="36" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/upload_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="65" selection-start="9079" selection-end="9132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/search_all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="43" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="49" selection-start="127" selection-end="127" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="68" selection-end="68" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/style_Search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="24" selection-start="3838" selection-end="3838" vertical-scroll-proportion="0.3622951">
           <folding />
         </state>
       </provider>
